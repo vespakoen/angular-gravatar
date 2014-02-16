@@ -1,4 +1,5 @@
 'use strict';
+var angular = require('angular');
 angular.module('ui.gravatar', ['md5']).provider('gravatarService', [
   function() {
     var hashRegex, self;

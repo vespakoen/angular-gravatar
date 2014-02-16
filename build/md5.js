@@ -6,6 +6,7 @@
  * Distributed under the BSD License
  * See http://pajhome.org.uk/crypt/md5 for more info.
  */
+var angular = require('angular');
 angular.module('md5', []).factory('md5', function() {
 
   /*
